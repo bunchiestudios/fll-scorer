@@ -1,0 +1,1 @@
+db_source = 'mssql+pyodbc://{user_name}:{password}@{our_subdomain}.database.windows.net:1433/{our_database_name}'  # TODO: fill in and don't push
