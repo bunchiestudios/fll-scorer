@@ -8,7 +8,7 @@ IF NOT EXISTS (SELECT * FROM sys.tables WHERE name='Users')
 CREATE TABLE  Users (
     id INTEGER IDENTITY(1, 1) PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL UNIQUE,
+    email VARCHAR(255) NOT NULL U   NIQUE,
     admin TINYINT NOT NULL
 );
 
